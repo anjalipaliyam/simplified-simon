@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:backgroundTint="#F00"
+        android:id="@+id/red_button"
+        />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="140dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#0F0"
+        android:layout_below="@+id/red_button"
+        android:id="@+id/green_button"
+        />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="140dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#FF0"
+        android:layout_below="@+id/red_button"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/yellow_button"
+        />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:backgroundTint="#00F"
+        android:layout_below="@+id/yellow_button"
+        android:id="@+id/blue_button"
+        />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/blue_button"
+        android:id="@+id/reset_button"
+        android:text="RESET"
+        android:textSize="30sp"
+        />
+
+</RelativeLayout>
